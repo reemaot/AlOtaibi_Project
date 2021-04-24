@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090808"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="206dp"
+        android:layout_height="133dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/weatherImageView"
+            android:layout_width="67dp"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/cloudss" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Temp:"
+                android:textColor="#F1EEEE"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/TempTxtView"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#F1E8E8"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Humidity:"
+                android:textColor="#F3E7E7"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/humTxtView"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#F3E7E7"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Weather:"
+                android:textColor="#EDE3E3"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/weatherTxtView"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#F6F0F0"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/CityTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:textColor="#EFE8E8"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Main Menu"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/insertUserBttn"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Add Users"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/viewUserBttn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Users"
+                app:backgroundTint="#00BCD4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/updateUserBttn"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:text="Update Users"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/deleteUserBttn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Users"
+                app:backgroundTint="#00BCD4" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sqlHomeBttn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQL Page"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/weatherBttn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:text="Change Weather City"
+            app:backgroundTint="#009688" />
+    </LinearLayout>
+</LinearLayout>

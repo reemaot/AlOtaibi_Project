@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AlOtaibi_Project</string>
+    <string-array name="optionsGroup">
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Email Address</item>
+        <item>Phone Number</item>
+    </string-array>
+    <string name="prompt">Choose one</string>
+    <string name="instructions">To add record from firebase: Enter ID.</string>
+    <string name="instructions1">To view records: Click on the view button.</string>
+    <string name="instructions2">To update a record: Enter all information.</string>
+    <string name="instructions3">To delete a record: Enter ID.</string>
+    <string name="viewInstructions">To view a specific user: Enter User ID.</string>
+    <string name="viewInstructions2">To view all user: Press All Users button.</string>
+
+</resources>
